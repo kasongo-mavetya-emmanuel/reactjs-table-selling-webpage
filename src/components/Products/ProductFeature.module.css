@@ -1,0 +1,27 @@
+li {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+li:last-child {
+  margin-bottom: 0px;
+}
+
+@media (max-width: 888px) {
+  li {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 830px) {
+  li {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 268px) {
+  li {
+    font-size: 12px;
+  }
+}

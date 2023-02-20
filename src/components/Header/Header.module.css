@@ -1,0 +1,145 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+/* Main Color #4d7c0f*/
+/* Gray Color  #374151*/
+
+header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 80px;
+  margin-top: 64px;
+  margin-bottom: 96px;
+}
+
+header img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+header h1 {
+  font-size: 44px;
+  letter-spacing: -2px;
+  line-height: 1.1;
+  margin-bottom: 32px;
+}
+
+.text-box p {
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+
+.text-box {
+  padding: 18px 0;
+}
+
+.text-box a {
+  font-size: 18px;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: white;
+  background-color: #4d7c0f;
+  border-radius: 36px;
+}
+
+@media (max-width: 878px) {
+  header {
+    column-gap: 48px;
+    margin-top: 64px;
+    margin-bottom: 96px;
+  }
+}
+
+@media (max-width: 859px) {
+  header {
+    display: block;
+    margin-bottom: 96px;
+  }
+  .text-box p {
+    margin-bottom: 32px;
+  }
+
+  header img {
+    margin-top: 24px;
+  }
+}
+
+@media (max-width: 450px) {
+  .text-box p {
+    font-size: 16px;
+  }
+
+  header h1 {
+    font-size: 30px;
+  }
+  .text-box a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 343px) {
+  .text-box p {
+    font-size: 14px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+  .text-box a {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .text-box p {
+    font-size: 16px;
+  }
+
+  header h1 {
+    font-size: 36px;
+  }
+  .text-box a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 350px) {
+  header {
+    margin-top: 32px;
+    margin-bottom: 64px;
+  }
+  .text-box p {
+    font-size: 12px;
+  }
+
+  header h1 {
+    font-size: 30px;
+  }
+  .text-box a {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 300px) {
+  header {
+    margin-top: 32px;
+    margin-bottom: 48px;
+  }
+  .text-box p {
+    font-size: 12px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+  .text-box a {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,54 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+/* Main Color #4d7c0f*/
+/* Gray Color  #374151*/
+
+.sub-header {
+  font-size: 24px;
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 962px) {
+  .sub-header {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 842px) {
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 726px) {
+  p {
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 502px) {
+  p {
+    font-size: 14px;
+  }
+  .sub-header {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 347px) {
+  p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 350px) {
+}
+
+@media (max-width: 300px) {
+}

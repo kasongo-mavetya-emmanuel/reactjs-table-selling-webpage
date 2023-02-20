@@ -1,0 +1,9 @@
+.hide-section {
+  opacity: 0;
+  transform: translateY(80px);
+}
+
+.section {
+  opacity: 1;
+  transition: opacity 2s, transform 2s;
+}

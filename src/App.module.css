@@ -1,0 +1,36 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+/* Main Color #4d7c0f*/
+/* Gray Color  #374151*/
+
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+footer {
+  border-top: 2px solid #c2c2c2;
+  padding: 12px 0px;
+}
+
+footer p {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+@media (max-width: 1000px) {
+  .app {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 250px) {
+  .app {
+    width: 300px;
+  }
+}
