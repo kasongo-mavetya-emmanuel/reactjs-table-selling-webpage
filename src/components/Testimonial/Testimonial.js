@@ -1,4 +1,4 @@
-import testimonial from "../../assets/testimonial.jpg";
+import testimonial from "../../assets/testimonial.webp";
 import classes from "./Testimonial.module.css";
 import "aos/dist/aos.css";
 

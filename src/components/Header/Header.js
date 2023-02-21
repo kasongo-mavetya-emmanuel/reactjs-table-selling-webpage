@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { ScrollContext } from "../../store/scroll-context";
-import hero from "../../assets/hero.jpg";
+import hero from "../../assets/hero.webp";
 import classes from "./Header.module.css";
 import "aos/dist/aos.css";
 

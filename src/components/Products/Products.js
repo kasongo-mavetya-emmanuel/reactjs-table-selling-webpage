@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import { ScrollContext } from "../../store/scroll-context";
 import ProductItem from "./ProductItem";
-import steelLegsTable from "../../assets/steellegstable.jpg";
-import tableWithDrawer from "../../assets/tablewithdrawer.jpg";
-import wallTable from "../../assets/walltable.jpg";
+import steelLegsTable from "../../assets/steellegstable.webp";
+import tableWithDrawer from "../../assets/tablewithdrawer.webp";
+import wallTable from "../../assets/walltable.webp";
 import classes from "./Products.module.css";
 import "aos/dist/aos.css";
 
