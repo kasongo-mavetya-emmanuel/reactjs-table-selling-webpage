@@ -4,7 +4,7 @@ import {
   IoSparklesOutline,
   IoTimeOutline,
   IoCubeOutline,
-  IoGlobeOutline,
+  //IoGlobeOutline,
 } from "react-icons/io5";
 import { IconContext } from "react-icons";
 

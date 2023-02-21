@@ -1,4 +1,4 @@
-import classes from "./ProductFeature.module.css";
+import "./ProductFeature.module.css";
 
 const ProductFeature = (props) => {
   return (
