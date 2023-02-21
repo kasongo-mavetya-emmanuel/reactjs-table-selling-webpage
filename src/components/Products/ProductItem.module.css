@@ -60,9 +60,9 @@ figure img {
   font-size: 24px;
 }
 
-.price-row a {
-  text-decoration: none;
-  font-size: 14px;
+.price-row button {
+  font-size: 13px;
+  border: none;
   text-transform: uppercase;
   background-color: #4d7c0f;
   color: white;
@@ -80,7 +80,7 @@ figure img {
     font-size: 18px;
   }
 
-  .price-row a {
+  .price-row button {
     font-size: 12px;
   }
 
@@ -100,7 +100,7 @@ figure img {
 }
 
 @media (max-width: 740px) {
-  .price-row a {
+  .price-row button {
     /* align-self: center; */
     font-size: 12px;
     padding: 6px 8px;

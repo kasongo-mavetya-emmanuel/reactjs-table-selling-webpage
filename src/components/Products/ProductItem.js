@@ -33,7 +33,7 @@ const ProductItem = (props) => {
             <div>
               <strong>{props.price}</strong>
             </div>
-            <a href="#">Add To Card</a>
+            <button>Add To Card</button>
           </div>
         </div>
       </figure>

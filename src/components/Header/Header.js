@@ -22,9 +22,7 @@ function Header() {
           ut nulla veniam aute amet veniam aliqua irure sit. Officia fugiat ut
           ut nulla veniam aute amet veniam.
         </p>
-        <a href="#" onClick={scrollTo}>
-          Order Now
-        </a>
+        <button onClick={scrollTo}>Order Now</button>
       </div>
       <img src={hero} alt="A table with chair" />
     </header>
